@@ -5,12 +5,11 @@ console.log(10 % 3);
 //8, 2 to power 3
 console.log(2 ** 3);
 
-
 let n = 5;
 
 //5, postfix increment, returns old value, then increments
 console.log(n++);
-//5
+//6
 console.log(n);
-//6, prefix increment, increments first, then returns new value
+//7, prefix increment, increments first, then returns new value
 console.log(++n);
