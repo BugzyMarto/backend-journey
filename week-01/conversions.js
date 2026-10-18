@@ -12,8 +12,6 @@ console.log(String(123)+1);
 console.log(Boolean(0));
 //true
 console.log(Boolean("0"));
-//false
-console.log(Boolean(""));
 
 //0
 console.log(Number(null));
