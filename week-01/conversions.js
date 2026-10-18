@@ -20,11 +20,8 @@ console.log(Number(null));
 //0
 console.log(Number(""));
 //7
-console.log(Number("7"));
-//true
-console.log(Boolean([]));
-//true
-console.log(Boolean(" "));
+console.log(Number(" 7 "));
+  
 //20
 console.log("10" * "2");
 //1055
