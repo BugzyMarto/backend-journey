@@ -19,9 +19,9 @@ console.log(typeof null);
 //undefined
 console.log(typeof undefined);
 //52
-console.log(typeof "5" + 2);
+console.log("5" + 2);
 //3
-console.log(typeof "5" - 2);
+console.log("5" - 2);
 //True
 console.log(5 == "5");
 //False
