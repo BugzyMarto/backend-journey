@@ -21,7 +21,7 @@ console.log(Number(null));
 console.log(Number(""));
 //7
 console.log(Number("  7  "));
-//false
+//true
 console.log(Boolean([]));
 //true
 console.log(Boolean(" "));
@@ -31,3 +31,13 @@ console.log("10" * "2");
 console.log("10" + 5 + 5);
 //1010
 console.log(5 + 5 + "10");
+//true
+console.log(Boolean(" "));
+//true
+console.log(Boolean("false"));
+//true
+console.log(Boolean([]));
+//true
+console.log(Boolean({}));
+//true
+console.log(Boolean(NaN));
