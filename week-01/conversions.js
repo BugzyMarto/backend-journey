@@ -20,7 +20,7 @@ console.log(Number(null));
 //0
 console.log(Number(""));
 //7
-console.log(Number("  7  "));
+console.log(Number("7"));
 //true
 console.log(Boolean([]));
 //true
@@ -39,5 +39,5 @@ console.log(Boolean("false"));
 console.log(Boolean([]));
 //true
 console.log(Boolean({}));
-//true
+//false
 console.log(Boolean(NaN));
