@@ -31,7 +31,7 @@ console.log(NaN === NaN);
 console.log("10" > "9");
 //true, string "10" is converted to number 10 and 10 is greater than 9
 console.log("10" > 9);
-//true, not a number is converted to NaN and NaN is not equal to anything, even itself
+//true, isNaN checks directly whether the value is NaN, since === can't.
 console.log(Number.isNaN(NaN));
-//false, undefined is not equal to anything, even itself
+//false, undefined is not equal to anything else if it is not null and itself
 console.log(undefined == 0);
