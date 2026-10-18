@@ -3,6 +3,6 @@
 let name = "Martin";
 
 const birthYear = 2004;
-const age = new Date().getFullyear() -birthYear;
+const age = new Date().getFullYear() - birthYear;
 
 console.log(`My name is ${name}. I am ${age} years old.`);
